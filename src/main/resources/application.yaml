@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: spring-cloud-aws-s3-encryption
+  main:
+    web-application-type: none
+  cloud:
+    aws:
+      credentials:
+        profile:
+          name: default
+      s3:
+        encryption:
+          keyId: dummy
