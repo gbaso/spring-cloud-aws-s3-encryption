@@ -6,6 +6,8 @@ Compile the application:
 ./mvnw package
 ```
 
+Don't forget to provide your own credentials for S3 and a valid KMS key.
+
 ## Using S3Template
 
 Run with:
